@@ -1,11 +1,20 @@
 my_list = []
+print(f"1. Empty list created: {my_list}")
 my_list.append(10)
 my_list.append(20)
 my_list.append(30)
 my_list.append(40)
+print(f"2. List after appending elements: {my_list}")
 my_list.insert(1, 15)
+print(f"3. List after inserting 15 at index 1: {my_list}")
 my_list.extend([50, 60, 70])
+print(f"4. List after extending with [50, 60, 70]: {my_list}")
 my_list.pop()
+print(f"5. List after popping the last element: {my_list}")
 my_list.sort()
+print(f"6. List after sorting: {my_list}")
 index_30 = my_list.index(30)
+print(f"7. The index of 30 in my_list is: {index_30}")
+
+
 print("The index of 30 in my_list is:", index_30)
